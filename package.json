@@ -1,0 +1,36 @@
+{
+  "name": "autocrm",
+  "version": "1.0.0",
+  "description": "autocar management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtaimooralikhan/AutoCRM.git"
+  },
+  "author": "Taimour Ali Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtaimooralikhan/AutoCRM/issues"
+  },
+  "homepage": "https://github.com/mtaimooralikhan/AutoCRM#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^6.15.0",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  }
+}
